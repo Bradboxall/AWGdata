@@ -1,0 +1,288 @@
+-------------------------------------------------------------------------------------------
+April v2 2025
+1 Updated lr17_b+gb (250227)
+ - Option 1 = CAN1 digital immo, needs cut
+ - Option 2 = CAN2 digital immo for round selector
+ - Option 3 = CAN2 digital immo for joystick selector v1
+ - Option 4 = CAN2 digital immo for joystick selector v2
+ - Option 5 = CAN2 digital immo for joystick selector v3
+
+-------------------------------------------------------------------------------------------
+April 2025
+1 Updated all files to v3.12 base firmware
+ - more options for how immobilisation is done
+ - Adjustable rearm times
+ - BETA testing of alarm functionality on Ghost Pro files - limited support
+2 Updated lr17_b+gb to have selectable immobilisation types for round and joystick selectors (250221)
+ - Option 1 = CAN1 digital immo, needs cut
+ - Option 2 = CAN2 digital immo for round selector
+ - Option 3 = CAN2 digital immo for joystick selector v1
+ - Option 4 = CAN2 digital immo for joystick selector v2
+ - Option 5 = CAN2 digital immo for joystick selector v3
+
+-------------------------------------------------------------------------------------------
+January 2025
+1 Updated gm_en with improved support for Holden VF Commodore (241127)
+2 Added t_h8 file for 2025 Hilux (241127)
+3 Added Jeep Renegade hybrid file j_rngd_1r1_hbr (240716)
+4 Added toyota_yrs (241210) with support for facelift Yaris GR
+5 Updated f_pm_2r1_at for better support on the 2024 Mustang automatic
+6 Added fr_clfrn_t__immo_v4 - test file for some cars that start without code.
+ - This file will probably cause errors before entering code
+ - Look in the test folder for this
+7 Added vw_golf_8r1 first separat file for 2024 update Golf
+8 Added toyota_hilux_8r2e1p1 with support for late 2024 MY
+
+-------------------------------------------------------------------------------------------
+November 2024:
+1 Added mini_s_e with support for the new mini cooper (240927) (tested on electric)
+2 Added f_exp_ev for first support of the Ford Explorer EV 2024 (240916)
+3 Added f_trcr_2 for first support of the Ford Transit Courier/Tourneo (240729)
+4 Updated p_rft_1r1 with improved support for Vauxhall Vivaro / Peugeot Rifter 2024
+5 Added prs_cnn_3r1 with first support for new Cayenne
+6 Updated lr17_b+gb to have selectable immobilisation types for round and joystick selectors (241121)
+ - Option 1 = CAN1 digital immo, needs cut
+ - Option 2 = CAN2 digital immo for joystick selector
+ - Option 3 = CAN2 digital immo for round selector
+7 Updated lr21_b+bl to include an option for i-Pace specific CAN2 immobilisation codes (241120)
+ - Option 1 = CAN1 digital immo
+ - Option 2 = High beam indication
+ - Option 3 = Select N indication (2 must be off for this to work)
+ - Option 4 = i-pace specific digital immo
+8 Added b_seal for first support of the BYD Seal (240827)
+9 Updated t_lc70_1r2 with UK version buttons (241107)
+
+-------------------------------------------------------------------------------------------
+October 2024:
+1 Added l_lm350h file for the Lexus LM (240510)
+2 Updated the kh_ev9 file with improved Ionic 5N support (240905)
+3 Updated the vw_id3_1 file to include support for the Ford Exporer EV 2024 (240904/240916)
+4 Added the jgr_ftp_1r1, a branch of the lr_en specially for the F-type (240725)
+5 Added the vw_tgn_3 file for first support of the new platform Tiguan/Passat (240916)
+6 Added lr_en_mt file for manual transmission cars. DO NOT USE ON AUTOS! - experimental
+7 Added lr_en_ROTARY_AT for new gearbox lock on the pop up rotary gear selector (DO NOT USE ON JOYSTICK TYPE) - experimental
+8 Added mrg_p_e+b first support for the Morgan Sixplus (240918)
+9 Updated merc_ces_br+bl with additional buttons for 2024 Vito
+10 Added f_pm_2r1 with 2 files, one for manual (_mt) and one for automatic (_at)
+11 Updated n_q_3_at_b_e with support for Renault Scenic EV 2024 (241001)
+12 Updated kh_i10_3r1_mt_k_p with more buttons on 2024 model (241003)
+13 Updated r_scnc_5 with support for Nissan Ariya EV (241009)
+14 Updated tl_rx200 file that fixed a rearm on start-stop on a 2016 NX (241014)
+15 Updated merc_ces_b added new buttons on CLE 2024 (241015)
+
+-------------------------------------------------------------------------------------------
+August v2 2024:
+1 Updated v_xc90_2_r2 with support for Polestar 2
+2 Added f_kg_3r1 for Ford Kuga 2024 support
+3 Updated ford_mk5_en, the previous one had a bug
+4 Updated new lr21_b+bl with improved gearbox lock (240814) - previous would allow gear selection sometimes
+
+-------------------------------------------------------------------------------------------
+August 2024
+1 Updated r_ast_hb_b+e (240722) includes loads of additional buttons
+2 Updated lr21_b+bl files with new indication, immobilisation on 1 CAN, gearbox on 2 CAN (240729/270430)
+3 Updated kh_tcsn_4_e with support for Genesis GV70 with remote move and remote start (240726)
+
+-------------------------------------------------------------------------------------------
+July 2024:
+1 Added mzd_cx50_e+b file. Support Mazda CX-50 and CX-60 (240410)
+2 Updated kh_srnt_4_e+b (240621) with improved remote start/movement support when using N/O cut
+3 Updated lr21_b+bl that now includes a gearbox lock on a second CAN connection - Dual CAN only (240610)
+4 Updated v_xc90_2_r2 file to include support for the LEVC TX Taxi (240624)
+5 Updated ford_mk5_en to include support for the new Transit Courier (240517)
+6 Updated every other file as well. Base firmware update 3.11
+ - New options selection using 4.7 or new programmer
+ - Hardware driver updates
+ - Ability to remove gearbox lock with option
+ - Full default factory reset now (requires version 8+ Bluetooth)
+ - Building alarm functions (still in alpha testing phase)
+
+
+-------------------------------------------------------------------------------------------
+June 2024:
+1 Updated f_mtg_6_r1_e+b with more buttons on Mustang MachE (240426)
+2 Updated merc_ces_br+bl to fix problems entering emergency code (240507)
+3 Updated honda_b with better support for C-RV mk6
+4 Added honda_crv_6_hbr_b for C-RV mk6 Hybrid
+5 Added g_monjaro adjusted to work with Lotus Emira automatic (manual still not done)
+6 Updated fr_california with improved buttons
+7 Added t_r4_xa50_h for new RAV4
+8 Updated ford_mk5_en with support for 2024 Transit Courier
+
+-------------------------------------------------------------------------------------------
+April 2024:
+1 Updated mclaren with accelerator codes for 720s (240320)
+2 Updated mxs_e90_el file for better diesel support (240321)
+3 Updated l_lbx with support for Lexus LBX (240325)
+4 Updated vag_p500 
+5 Added ranger file also does gearbox lock now
+6 updated vw_mqb+e with better support for the latest cars and buttons
+
+-------------------------------------------------------------------------------------------
+March 2024:
+1 Updated au_mqb+bl file with updated gear blocking codes 231116
+2 Updated f_tcst_2 file to add automatic gearbox support 231221
+3 Added f_pm_2 for improved support on Puma II 231221
+4 Updated au_mqb+bl 231116 additional buttons on new vehicles
+5 Updated fiat_d_en+bd dual CAN file with additional buttons for Boxer/Relay
+6 Updated ar_stlv 240220 fixed service mode not exiting on some cars
+7 Added first version of kh_ev9 for the EV9. Single CAN only for now
+
+-------------------------------------------------------------------------------------------
+24 February 2024:
+1 Added p_208_2_el for Peugeot e208 electric 2019->
+2 Added support for the mk2 Kona with 231211_kh_kona_2.bin files
+3 Added vehicle specific file for the 2023 Nissan Qashqai with 231012_n_q_3_at_b_e.bin
+4 Added t_crl_e210_hbr with support for the 2022 Corrola facelift hybrid
+5 Added f_trn_cst_mt with support for 2024 model Ford Transit Customer. Test on manual only so far
+6 Added some Toyota test files without any digital blocking (240108 t_rav4_ax50 and tl)
+7 Added fr_prt_1r1 for initial support for Ferrari Portofino separated from SF90 file
+8 Updated fr_ff file for Ferrari FF
+9 Added fr_488_gtb_en for specific support for Ferrari 488 GTB
+10 Added Hyundai i10 firmware kh_i10_3r1_mt_k_p (240129)
+11 Updated vag_mqb+f 231116 with improved support for Q2 facelift
+12 Added Isuzu Grafter inital support 240216 isz_grf
+13 Fixed v_xc90_2_r_b+e file that sometimes gives errors on start inhibit (240221)
+
+-------------------------------------------------------------------------------------------
+January 2024:
+1 Updated fr_lss_en single CAN file with more buttons on the 488
+2 Added fr_ff file for the Ferrari FF (230925 first version)
+3 Added ctr_c5x (230911) with support for Citroen C5 X 2022 PHEV
+4 Updated mg_zs_2_at_e_2 file for improved supported for facelift ZS (231012)
+5 Updated sk_enq_1 with different immobilisation (231031)
+6 Added cpr_brn_1 for CUPRA BORN (231109)
+7 Added iD4 file with different immobilisation and indication (231115)
+8 Added lotus_eletre file with first version support for the Lotus Eletre SUV (231102)
+9 Added mg_hs_1_at_b file. This separates the HS and ZS platforms (231012)
+10 Added ms_grecale file for first version support for the Maserati Grecale (231115)
+11 Added EV6 specific file that allows remote control movement (231121)
+12 Updated pch_mcn_1_r_b file to fix errors after indication (231127)
+13 Added t_chr_1 file with no immobilisation (231130) in test folder
+14 Updated ineos_grndr file with changed indication (231129)
+15 Updated kh_tcsn_4_e file with improved high beam coding (231207)
+16 Added fr_rma file for first support for the Ferrari Roma
+
+-------------------------------------------------------------------------------------------
+September 2023:
+1 Updated mqb+f 230724 with improved support for Audi Q2
+2 Added honda_b file for ZR-V 
+3 Added new file for 2022 version Nissan Xtrail (T33) (n_xt_3_at_b_e)
+4 Updated fs_sf90 file to add support for Portofino
+5 Updated BMW_g file with improved stop-start disable function
+6 Added ar_tnl_at_k_hp file for intial support for the Alfa-Romeo Tonale
+7 Added a test file that fixed a Toyota CH-R 2019 with a stange noise (\test files\ghost2_v3.10.1c230912_18.35.49_l_nx2.bin)
+8 Added dual CAN fr_lss_e+b file, developed on 812 superfast. Not yet tested on other vehicles.
+
+-------------------------------------------------------------------------------------------
+August 2023:
+1 Moved files around again
+
+-------------------------------------------------------------------------------------------
+July 2023:
+1 Updated file structure again
+2 Added Ferrari SF90 file (fs_sf90)
+3 Added dedicated file for the new Ducato including dual CAN support for more buttons/indication (fiat_dct)
+4 Added test version of bmw_x7_g2 file with i7 support (230720 version)
+5 Added support for Lamborghini Gallardo (using vag_g_en version 230725 - Dual CAN only)
+6 Updated l_nx file with more buttons for the 2023 RX450h
+7 Added new file for lr17_b+gb that fixes digital off option with 21
+
+-------------------------------------------------------------------------------------------
+June 2023:
+1 Change in how files are located to attempt to reduce confusion on file location.
+2 Updated every file with latest 3.10.1 base firmware that allows input/output configuration
+3 Added ineos_grndr file for Ineos Grenadier support - DUAL CAN ONLY
+4 Added ast_mrt_db9 for Aston Martin DB9 support
+5 Updated loads of other files with small changes for buttons, indications ect.
+
+-------------------------------------------------------------------------------------------
+APRIL 2023:
+1 Added special file for Nissan Qashqui Hybrid Epower 2022 (ghost2_v3.10.0a221214_nissan_q_r2.bin)
+2 Updated Volvo XC90 file with different ignition codes to speed up response (ghost2_alarm_v3.10.1c230320_volvo_xc90II.bin)
+
+-------------------------------------------------------------------------------------------
+MARCH 2023:
+1 BMW x7 update
+2 lr_en full digital file added. DO NOT USE ON HYBRIDS!
+3 Volvo XC90 newer version update
+4 Updated Nissan_q_r2 file to add accelerator codes for Hybrid and electric new Qashqai
+5 Updated hnd_civ_fl5_b to not trigger on brake pedal. On one car this was preventing emergency code use.
+6 Added hnd_civ_13_b which is based on fl5 file but adds other non Type-R codes. Not tested yet.
+7 Updated Toyota Corolla t_crl_e210 file with improvements on button support for latest cars
+
+-------------------------------------------------------------------------------------------
+February V2
+1 Updated merc_164b file to improve blue wire control triggers
+2 Added lr21_b+gb with an alternative for when the M,1,2,3 buttons do not work correctly (ghost2_3min_v3.9.1a_230202_lr21_b+gb_alt.bin)
+3 Added lr_en file with adjust CAN settings that should fix some intermittent errors (230210_lr_en)
+4 Added folder with all new files for Ghost2 and Ghost Pro. These have new base firmware of 3.10.0, here are the changes
+ - Added new feature called "diagnostic exchange block". Default off, works on a limited number of cars, used to stop any diagnostics/key programming when armed
+ - All files will now have 15 minute service mode by default. Some files had 3 minute in previous releases
+ - Beta support for output wire remapping. This will allow the orange wire and LIN wires to be configured differently.
+5 Added all files for the dual CAN Ghost-Pro.
+6 Updated 230222_bmw_x7_g2_1 file to work with new X1 
+7 Updated suzuki_en file to work with SX4 S-cross 2021
+8 Updated 230214_subaru_x for GT86 support (note 3 minute file)
+9 Added 230208_r_mgn for 2023 Renault Megane electric
+10 Added test jig firmware and connection notes.
+
+-------------------------------------------------------------------------------------------
+February 2023:
+1 Updated sk_enq_b file with improved immobilisation on Audi Q4 eTron
+2 Updated lr17_b+gb no digital file with minor changes
+3 Updated tl_yrs_hbr that did not come out service on some cars
+4 Added ghost2_alarm_15min_v3.9.1_220808_volvo_xc90II.bin for older XC90
+5 Improved bmw_x7_g2
+6 Added kh_kona file to work with 2023 all electric Kona
+7 Added (230130) hnd_civ_fl5_b file. First support for the new Civic Type-R
+8 Updated merc_164b file to improve blue wire control on option 18 (start inhibit)
+
+-------------------------------------------------------------------------------------------
+December 2 2022:
+1 Added Ssangyong Rexton and Korando - inital file support, still under test (ghost2_15min_v3.9.1a_221024_ssng_rexton_4r1.bin)
+2 Updated lr21_b+bg (ghost2_15min_v3.9.1a_221221_lr21_b+gb.bin) fixed bug for i-Pace 2021 that did not trigger blue wire correctly
+
+-------------------------------------------------------------------------------------------
+December 2022:
+1 Updated lr21_b+gb - improved button control (ghost2_15min_v3.9.1a_220906_lr21_b+gb.bin)
+2 Added isz_dmax3 - first release of Isuzu Dmax 3rd gen (RG) support (ghost2_15min_v3.9.1a_221128_isz_dmax3.bin)
+3 Added BMW X7 2023 support - single CAN only (ghost2_15min_v3.9.1a_221219_bmw_x7_g2.bin)
+4 Added BMW X1 2023 support - Dual CAN only (ghost2_alarm_v3.9.1a_221201_bmw_x7_2022.bin)
+5 Updated Yaris GR file to fix ignition code bug (ghost2_15min_v3.9.1a220905_tl_yrs_hbr.bin) bug was in 220818, did not allow install at all
+6 Updated sk_sup_3r_b+f file for the latest facelift Skoda Superb
+7 Updated kh_srnt_4_e+b file with improved support for hybrids
+8 Moved software to a different download as it is really big and automatic updates means it no longer needs to be included in data pack
+
+-------------------------------------------------------------------------------------------
+November 2022:
+1 Updated fr_lss_en file (221027) with support for 812 Superfast
+2 Updated mclaren file (221027) with improved support for 720S
+3 Added r_dst_2_e_i (221102) file with support for 2022 Alpine A110 GT
+4 Added bmw_i file for the new iX
+5 Updated kh_tcsn_4_e file with improved button response and blue wire control improvements
+
+-------------------------------------------------------------------------------------------
+October 2022:
+1 Updated Alfa file (ar_stlv) with improved immobilisation for post 2019 facelift
+2 Updated p_308new file that adds support for the new Vauxhall Astra (2022 model)
+3 Updated merc_a_gr+br with slight changes to some button inputs
+4 Updated lr21_b+gb (220923_lr21_b+gb) with support for 72 plate Evoque 
+5 Added merc_act_mp5 file for Actros MK5 support
+6 Added merc_br+eco for the new 2022 Mercedes E-class
+7 Updated iveco_d file with improved immobilisation
+
+-------------------------------------------------------------------------------------------
+September 2022:
+1 Replaced all files with v3.9.1a base firmware version. This update includes minor updates for all "alarm" units that fixes a bump sense bug and improved functionality with the door lock control module (not sold in the UK)
+2 Range Rover Evoque manual special file added, in \JLR\test - ghost2_15min_v3.9.0d_220713_lr_en_manual_only.bin
+3 BMW G updated with new immo for new vehicles - ghost2_15min_v3.9.0d_220609_bmw_g_bd_en.bin
+4 Added Ford F350 support with a new file.
+5 New version of the 4.X programmer, fixes some crashing bugs in Windows 7
+6 Updated the Bluetooth update file
+7 Added ghost2_15min_v3.9.1a_220825_kh_en.bin - improved blue wire control, needed for i20N and some other vehicles
+8 Updated lr21_b+gb with L460 button updates
+9 Updated au_q7_2r_b+bl with updated door and buttons
+10 Added 220324_lr17_b+gb with no digital immobilisation
+
+
