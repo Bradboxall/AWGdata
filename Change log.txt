@@ -1,3 +1,10 @@
+May 2025
+1 Added 2024 VW Crafter file (vw_crafter_2r0e1p1) 250417
+2 Added 2025 full size Ford Transit file (ford_transit_7r2e1p1) 250416
+3 Added alternative lr17_b+gb file with different version 5 immo (250220)
+4 Added new VW Tiguan file volkswagen_tiguan_3r0e1p1 (250405)
+5 Added TS100 update file version 3.1.0 (250422)
+
 -------------------------------------------------------------------------------------------
 April v2 2025
 1 Updated lr17_b+gb (250227)
@@ -6,6 +13,7 @@ April v2 2025
  - Option 3 = CAN2 digital immo for joystick selector v1
  - Option 4 = CAN2 digital immo for joystick selector v2
  - Option 5 = CAN2 digital immo for joystick selector v3
+2 Added renault_kangoo_3r0e1p1 (250402)
 
 -------------------------------------------------------------------------------------------
 April 2025
