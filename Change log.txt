@@ -4,6 +4,14 @@ May 2025
 3 Added alternative lr17_b+gb file with different version 5 immo (250220)
 4 Added new VW Tiguan file volkswagen_tiguan_3r0e1p1 (250405)
 5 Added TS100 update file version 3.1.0 (250422)
+6 Added bmw_7_7r0e1p1 (250415) specific file for 7 series G70
+7 Updated lr21_b+bl to have immobilisation active when engine start, not on brake press as before. 
+8 Added bmw_1_3r0e1p1 for F chassis manaul support
+9 Added ghost2_alarm_v3.12.0p250519_audi_rs3_4r1e1p1 with first all digital immobilisation on new Audi RS3
+10 Added lotus_emira_1r0e2p1 for manual vehicles
+11 Added nissan_interstar_4r0e1p1 first version for new Interstar
+12 Added various Jaecoo files for the J7 petrol version. Hybrid still to be done
+
 
 -------------------------------------------------------------------------------------------
 April v2 2025
